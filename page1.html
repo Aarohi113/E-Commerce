@@ -1,0 +1,409 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage Title</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+           font-family: Arial, sans-serif;
+          
+        }
+        .home{
+            background-image: url("../intern img/women bg2.jpg");
+            height: 100vh;
+           background-size: cover;
+
+        }
+
+        
+
+        .navbar {
+            background-color: transparent;
+            width: 100%;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            /* justify-content: space-between; */
+            width: 100%;
+        }
+
+        .navbar a {
+            display: block;
+            color:rgb(139, 0, 0) ;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 19px;
+           
+            
+
+        }
+        .navbar li {
+            margin-left: 20%;
+        }
+        .navbar li a:hover{
+            color: black;
+            cursor:pointer;
+        }
+        .s-bar{
+           margin-left: 20%;
+           margin-top: 3%;
+          
+           
+        }
+        .s-bar input{
+            padding: 15px;
+            width: 55%;
+            border-radius: 8px;
+            border: none;
+            font-size: 17px;
+        }
+        .s-bar button{
+        padding:10px ;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(116, 177, 157);
+        font-size: 17px;
+
+        }
+        .s-bar  button:hover{
+            background-color: aquamarine;
+            cursor: pointer;
+        }
+        .s-bar select{
+            padding: 12px;
+            width:10%;
+            border: none;
+            border-radius: 8px;
+            font-size: 17px;
+        }
+        .s-bar span:hover{
+            color: chocolate;
+            cursor: pointer;
+           
+        }
+        .cart{
+            font-size: 25px;
+        }
+        .title{
+            text-align: center;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 23px;
+            color: rgb(10, 23, 113);
+           
+        }
+        .container{
+            text-align: center;
+            margin-top: 115px;
+            font-size: 37px;
+           color:rgb(217, 160, 45);
+            width: 800px;
+            margin-left: 27%;
+            
+        }
+        .sec-1 h3{
+            text-align: center;
+            color:black;
+            font-size: 35px;
+            background-color: white;
+            
+        }
+        .btn:hover{
+            background-color: rgb(69, 40, 96);
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .btn{
+            margin-left: 47%;
+             padding: 15px; 
+             width:10%; 
+             background-color:darkviolet; 
+             color: white; 
+             font-size: 23px; 
+             border-radius: 10px;
+             border: none;
+        }
+        .men img{
+            width: 250px;
+            height: 300px;
+            padding: 25px;
+           
+        }
+        .men{
+            margin-left: 20%;
+            width: 300px;
+            height:500px ;
+            background-color: white;
+            align-items: center;
+           
+        }
+        .men h2{
+            text-align: center;
+            padding:10px;
+            font-size: 25px;
+        }
+        .men h4{
+            text-align: center;
+            margin-top:-3%;
+            font-size: 20px;
+            color:red;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .men a{
+           margin-left: 40%;
+           text-decoration: none;
+           color: darkblue;
+           font-size: 20px;
+            margin-top: -7%;
+        }
+        .men a:hover{
+            color:red;
+        }
+        .women{
+            margin-left: 50%;
+            width: 300px;
+            height:500px ;
+            background-color: white;
+            align-items: center;
+            margin-top: -34.5%;
+        }
+        .women h2{
+            text-align: center;
+            padding:10px;
+            font-size: 25px;
+            
+           
+        }
+        .women h4{
+            text-align: center;
+            margin-top:-3%;
+            font-size: 20px;
+            color:red;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .women img{
+            width: 250px;
+            height: 300px;
+            padding: 25px;
+        }
+        .women a{
+            margin-left: 40%;
+           text-decoration: none;
+           color: darkblue;
+           font-size: 20px;
+            margin-top: -7%;
+        }
+        .women a:hover{
+            color:red;
+        }
+        h1.runtext {
+            animation: runningText 8s linear infinite; 
+            animation-direction: alternate-reverse;
+            /* white-space: nowrap;  */
+        }
+        @keyframes runningText {
+            from {
+                transform: translateX(100%); 
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+        .sec2 h3{
+            text-align: center;
+            color:black;
+            font-size: 35px;
+            background-color: white;
+        }
+       .mob{
+        margin-left: 20%;
+            width: 300px;
+            height:500px ;
+            background-color: white;
+            align-items: center;
+           
+       }
+       .mob h2{
+        text-align: center;
+            padding:10px;
+            font-size: 25px;
+       }
+       .mob h4{
+        text-align: center;
+            margin-top:-3%;
+            font-size: 20px;
+            color:red;
+            font-family:Arial, Helvetica, sans-serif;
+       }
+       .mob img{
+        width: 250px;
+            height: 300px;
+            padding: 25px;
+       }
+       .mob a{
+        margin-left: 40%;
+           text-decoration: none;
+           color: darkblue;
+           font-size: 20px;
+            margin-top: -7%;
+       }
+       .mob a:hover{
+        color:red;
+       }
+       .ear{
+        margin-left: 50%;
+            width: 300px;
+            height:500px ;
+            background-color: white;
+            align-items: center;
+            margin-top: -34.5%;
+       }
+       .ear h2{
+        text-align: center;
+            padding:10px;
+            font-size: 25px;
+       }
+       .ear h4{
+        text-align: center;
+            margin-top:-3%;
+            font-size: 20px;
+            color:red;
+            font-family:Arial, Helvetica, sans-serif;
+       }
+       .ear img{
+        width: 200px;
+            height: 250px;
+            padding: 25px;
+       }
+       .ear a{
+        margin-left: 40%;
+           text-decoration: none;
+           color: darkblue;
+           font-size: 20px;
+            margin-top: -7%;
+       }
+       .ear a:hover{
+        color:red;
+       }
+      
+       .btn1{
+        margin-left: 46%;
+    width: 7%;
+        padding: 10px;
+        border-radius:6px;
+        border: none;
+        background-color: cornflowerblue;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .btn2{
+        width: 7%;
+        padding: 10px;
+        border: none;
+        border-radius:6px;
+        background-color: goldenrod;
+        font-size: 15px;
+        text-decoration: none;
+       
+    }
+    footer{
+        background-color: black;
+       color: white;
+       padding: 12px;
+       text-align: center;
+       margin-top: 15px;
+    }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="home">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="men.php">MENS</a></li>
+                    <li><a href="women.php">WOMEN</a></li>
+                    <li><a href="elect.php">ELECTRONICS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="title">
+            <h2>Shopping World</h2>
+        </div>
+       <div class="s-bar">
+        <select name="categoryselect" id=""><option value="" label="All Categories"></option><option value="" label="men" >Men</option><option value="" label="women">Women</option><option value="" label="electronics">Electronics</option></select>
+        <select name="languageselect" id="" data-uia="language-picker-header"><option value="en-IN" lang="en" label="English">English</option><option value="hi-IN" lang="hi" label="हिंदी">हिंदी</option></select>
+        <input type="text" placeholder="Search Your Fav Brand">
+        <button type="submit"> Search</button>
+        <span  class="cart">&#128722;Cart</span>
+       </div>
+   
+    <div class="container">
+        <h1 class="runtext">GET  START YOUR FAVORITE SHOPPING </h1>
+    </div>
+    
+    <button class="btn" >
+        Buy Now
+    </button>
+</div>
+
+    <!-- <hr> -->
+    <div class="sec-1">
+        <h3>MENS AND WOMENS</h3>
+       
+        <section>
+            <div class="men">
+                <h2>Men T-Shirts</h2>
+                <h4> Starting Price 350Rs</h4>
+                <img src="https://tse1.mm.bing.net/th?id=OIP.BXPav46zzCT_LQwvXBf4ywHaJf&pid=Api&rs=1&c=1&qlt=95&w=94&h=120" alt="">
+                <a href="">See More</a>
+               
+            </div>
+            <div class="women">
+                <h2>Women dresses</h2>
+                <h4>Starting Price 700rs</h4>
+                <img src="https://tse1.mm.bing.net/th?id=OIP.077N83KIUGLUO-cVWeBYDAHaJS&pid=Api&rs=1&c=1&qlt=95&w=86&h=108" alt="">
+                <a href="">See More</a>
+            </div>
+          
+        </section>
+    </div>
+    <!-- <hr> -->
+    <div class="sec2">
+        <h3>ELECTRONICS</h3>
+        <section>
+            <div class="mob">
+                 <h2>Mobile and Tabs</h2>
+                <h4>Starting Price 8000rs</h4>
+                <img src="https://tse1.mm.bing.net/th?id=OIP.b3sjv0CLKAudToJw73j4ZwHaFz&pid=Api&rs=1&c=1&qlt=95&w=141&h=110" alt="">
+                <a href="">See More</a>
+            </div>
+            <div class="ear">
+                <h2>Headphones and More</h2>
+                <h4>Starting Price 1000rs</h4>
+                <img src="../intern img/headphone.png" alt="">
+                <a href="">See More</a>
+                </div>
+        </section>
+    </div>
+    <div class="button">
+        
+        <a class="btn1" href="sign.html">SignUp</a>
+        <a class="btn2" href="log.html">Login</a>
+    </div>
+    <footer>
+        @Copyrights Terms and Conditions
+    </footer>
+</body>
+</html>

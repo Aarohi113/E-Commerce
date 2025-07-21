@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .l-form{
+        border: 2px solid blue;
+        width: 300px;
+        margin-left: 40%;
+            margin-top:10%;
+            height: 250px;
+            background-color: azure;
+            border-radius: 7px;
+           
+
+       
+    }
+    .l-form h3{
+        text-align: center;
+        font-size: 23px;
+        margin-top: 3px;
+    }
+    .l-form input{
+        width: 250px;
+        height: 30px;
+        padding: 8px;
+        margin: 10px;
+        border-radius: 6px;
+        border: 2px solid blue;
+    }
+    .l-form button{
+       margin-left: 40%;
+       padding: 6px;
+       border-radius: 3px;
+       border: 2px solid blue;
+    }
+    .l-form button:hover{
+        background-color: aquamarine;
+    }
+    </style>
+</head>
+<body>
+    <div class="l-form">
+        <form action="log.php" method="post">
+           <h3>Login</h3> 
+           <input type="text" placeholder="Name" required name="uname">
+           <input type="password" placeholder="Enter your pass" name="upass1" required>
+           <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
